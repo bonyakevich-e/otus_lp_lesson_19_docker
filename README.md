@@ -28,7 +28,10 @@ itbn@LearningMachine1$ docker login
 ```
 itbn@LearningMachine1$ docker push itbn/nginx
 ```
+Ссылка на репозиторий с нашим образом [itbn/nginx](https://hub.docker.com/repository/docker/itbn/nginx/general)
+
 4. Проверяем загрузку и работу нашего docker образа.
+
 Удаляем локальные образы и контейнеры:
 ```
 itbn@LearningMachine1$ docker rm -v $(docker ps --filter status=exited -q)
