@@ -28,7 +28,7 @@ itbn@LearningMachine1$ docker login
 ```
 itbn@LearningMachine1$ docker push itbn/nginx
 ```
-Ссылка на репозиторий с нашим образом [itbn/nginx](https://hub.docker.com/repository/docker/itbn/nginx/general)
+Ссылка на репозиторий с кастомным образом [itbn/nginx](https://hub.docker.com/repository/docker/itbn/nginx/general)
 
 4. Проверяем загрузку и работу нашего docker образа.
 
